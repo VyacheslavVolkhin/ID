@@ -1,0 +1,30 @@
+img-comparison-slider {
+  visibility: hidden;
+    max-width: 100%;
+    position: relative;
+    z-index: 2;
+}
+img-comparison-slider img {
+    display: block;
+    width: 100%;
+}
+img-comparison-slider [slot='second'] {
+  display: none;
+}
+
+img-comparison-slider.rendered {
+  visibility: inherit;
+}
+
+img-comparison-slider.rendered [slot='second'] {
+  display: unset;
+}
+img-comparison-slider {
+    --divider-width: 4px;
+    --divider-color: #fff;
+    --default-handle-opacity: 1;
+    --default-handle-color: #fff;
+}
+.image-compare-box:not(.img-article) {
+     margin-bottom: 3.8rem;
+}

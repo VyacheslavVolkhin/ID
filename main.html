@@ -11,6 +11,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="./css/swipebox.min.css" />
+    <link rel="stylesheet" href="./css/jquery-ui.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/slick.css" />
     <link rel="stylesheet" href="./css/style.min.css" />
 </head>
@@ -23,22 +26,464 @@
         <!-- header -->
         <header class="header">
             <div class="inner-wrap">
-                44444
+                <div class="logo-wrap">
+                    <a href="" class="logo">
+                        <span class="logo-image">
+                            <img src="./img/main/logo.png" alt="">
+                        </span>
+                        <span class="logo-title-wrap">
+                            <span class="logo-title">iz-derewa</span>
+                            <span class="logo-subtitle">мебель на заказ</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="phone-wrap">
+                    <a href="tel:84953456754" class="link-phone">+7 495 345 67 54</a>
+                </div>
+                <div class="popup-menu-wrap js-popup-wrap">
+                    <a href="" class="btn-popup btn-action-ico ico-menu js-btn-toggle"><span></span></a>
+                    <div class="popup-content-block js-popup-block">
+                        <a href="" class="btn-popup-close btn-action-ico ico-close js-btn-close"></a>
+                        <div class="menu-outer-wrap">
+                            <ul class="menu">
+                                <li><a href="" class="btn-menu">о компании</a></li>
+                                <li><a href="" class="btn-menu">мебель на заказ</a></li>
+                                <li>
+                                    <a href="" class="btn-menu">дизайн интерьера</a>
+                                    <ul class="menu-inner">
+                                        <li><a href="" class="btn-menu-inner">выпадающий пункт</a></li>
+                                        <li><a href="" class="btn-menu-inner">выпадающий пункт на две строки</a></li>
+                                        <li><a href="" class="btn-menu-inner">выпадающий пункт</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="" class="btn-menu">галерея</a></li>
+                                <li><a href="" class="btn-menu">контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </header>
         <!-- /header -->
 
-        <!-- page -->
-        <div class="page">
-            2222
+        <!--main-slider-box-->
+        <div class="main-slider-box cnt-section">
+            <div class="inner-wrap">
+                <div class="slider-wrap">
+                    <div class="slider">
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <div class="sl-inner-wrap">
+                                <div class="sl-photo-wrap item-animation item-atop">
+                                    <div class="elm-photo photo-cover">
+                                        <img src="./img/main.jpg" alt="" class="">
+                                    </div>
+                                </div>
+                                <div class="sl-info-wrap item-animation item-atop item-animation-third">
+                                    <div class="sl-text-wrap">
+                                        <h1 class="h1-title">ИЗ-ДЕРЕВА.РУ мебель <br>по индивидуальным проектам</h1>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                                        <a href="" class="btn">о компании</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/sl-wrap-->
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <div class="sl-inner-wrap">
+                                <div class="sl-photo-wrap item-animation item-atop">
+                                    <div class="elm-photo photo-cover">
+                                        <img src="./img/main-second.jpg" alt="" class="">
+                                    </div>
+                                </div>
+                                <div class="sl-info-wrap item-animation item-atop item-animation-third">
+                                    <div class="sl-text-wrap">
+                                        <h1 class="h1-title">Lorem ipsum dolor sit amet, consectetur.</h1>
+                                        <a href="" class="btn">о компании</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/sl-wrap-->
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <div class="sl-inner-wrap">
+                                <div class="sl-photo-wrap item-animation item-atop">
+                                    <div class="elm-photo photo-cover">
+                                        <img src="./img/main-full.jpg" alt="" class="">
+                                    </div>
+                                </div>
+                                <div class="sl-info-wrap item-animation item-atop item-animation-third">
+                                    <div class="sl-text-wrap">
+                                        <h1 class="h1-title">Delectus harum laborum quaerat rem sunt? Sit.</h1>
+                                        <p>Commodi, consequatur deleniti dolores ducimus eligendi excepturi, harum in ipsa iste iure magni natus nesciunt nulla odit officia pariatur perspiciatis possimus, quaerat quidem quisquam rem repellendus similique tempora tempore vitae! Ab ad architecto asperiores at atque dolore eius est fugiat illum impedit laudantium neque nesciunt, non quasi quo ratione repellendus totam, vitae?</p>
+                                        <a href="" class="btn">о компании</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/sl-wrap-->
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- /page -->
+        <!--/main-slider-box-->
+
+        <!--main-tiles-slider-box-->
+        <div class="main-tiles-slider-box cnt-section">
+            <div class="inner-wrap">
+                <!--tiles-slider-box-->
+                <div class="tiles-slider-box">
+                    <h2 class="h2-title title-center item-animation item-atop">выполненные проекты</h2>
+                    <div class="slider-wrap item-animation item-atop item-animation-third">
+                        <div class="slider">
+                            <!--sl-wrap-->
+                            <div class="sl-wrap">
+                                <a href="" class="item-tile-main">
+                                    <span class="tile-photo-wrap">
+                                        <span class="tile-photo photo-cover">
+                                            <img src="./img/photo03.jpg" alt="">
+                                        </span>
+                                        <span class="tile-action">
+                                            <span class="btn">подробнее</span>
+                                        </span>
+                                    </span>
+                                    <span class="tile-info-wrap">
+                                        <span class="tile-title">Спальная под ключ в Москве, длиною в 2 строки</span>
+                                        <span class="tile-info">1 250 000 р.</span>
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/sl-wrap-->
+                            <!--sl-wrap-->
+                            <div class="sl-wrap">
+                                <a href="" class="item-tile-main">
+                                    <span class="tile-photo-wrap">
+                                        <span class="tile-photo photo-cover">
+                                            <img src="./img/photo03.jpg" alt="">
+                                        </span>
+                                        <span class="tile-action">
+                                            <span class="btn">подробнее</span>
+                                        </span>
+                                    </span>
+                                    <span class="tile-info-wrap">
+                                        <span class="tile-title">Спальная под ключ в Москве, длиною в 2 строки</span>
+                                        <span class="tile-info">1 250 000 р.</span>
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/sl-wrap-->
+                            <!--sl-wrap-->
+                            <div class="sl-wrap">
+                                <a href="" class="item-tile-main">
+                                    <span class="tile-photo-wrap">
+                                        <span class="tile-photo photo-cover">
+                                            <img src="./img/photo03.jpg" alt="">
+                                        </span>
+                                        <span class="tile-action">
+                                            <span class="btn">подробнее</span>
+                                        </span>
+                                    </span>
+                                    <span class="tile-info-wrap">
+                                        <span class="tile-title">Спальная под ключ в Москве, длиною в 2 строки</span>
+                                        <span class="tile-info">1 250 000 р.</span>
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/sl-wrap-->
+                            <!--sl-wrap-->
+                            <div class="sl-wrap">
+                                <a href="" class="item-tile-main">
+                                    <span class="tile-photo-wrap">
+                                        <span class="tile-photo photo-cover">
+                                            <img src="./img/photo03.jpg" alt="">
+                                        </span>
+                                        <span class="tile-action">
+                                            <span class="btn">подробнее</span>
+                                        </span>
+                                    </span>
+                                    <span class="tile-info-wrap">
+                                        <span class="tile-title">Спальная под ключ в Москве, длиною в 2 строки</span>
+                                        <span class="tile-info">1 250 000 р.</span>
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/sl-wrap-->
+                            <!--sl-wrap-->
+                            <div class="sl-wrap">
+                                <a href="" class="item-tile-main">
+                                    <span class="tile-photo-wrap">
+                                        <span class="tile-photo photo-cover">
+                                            <img src="./img/photo03.jpg" alt="">
+                                        </span>
+                                        <span class="tile-action">
+                                            <span class="btn">подробнее</span>
+                                        </span>
+                                    </span>
+                                    <span class="tile-info-wrap">
+                                        <span class="tile-title">Спальная под ключ в Москве, длиною в 2 строки</span>
+                                        <span class="tile-info">1 250 000 р.</span>
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/sl-wrap-->
+                            <!--sl-wrap-->
+                            <div class="sl-wrap">
+                                <a href="" class="item-tile-main">
+                                    <span class="tile-photo-wrap">
+                                        <span class="tile-photo photo-cover">
+                                            <img src="./img/photo03.jpg" alt="">
+                                        </span>
+                                        <span class="tile-action">
+                                            <span class="btn">подробнее</span>
+                                        </span>
+                                    </span>
+                                    <span class="tile-info-wrap">
+                                        <span class="tile-title">Спальная под ключ в Москве, длиною в 2 строки</span>
+                                        <span class="tile-info">1 250 000 р.</span>
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/sl-wrap-->
+                            <!--sl-wrap-->
+                            <div class="sl-wrap">
+                                <a href="" class="item-tile-main">
+                                    <span class="tile-photo-wrap">
+                                        <span class="tile-photo photo-cover">
+                                            <img src="./img/photo03.jpg" alt="">
+                                        </span>
+                                        <span class="tile-action">
+                                            <span class="btn">подробнее</span>
+                                        </span>
+                                    </span>
+                                    <span class="tile-info-wrap">
+                                        <span class="tile-title">Спальная под ключ в Москве, длиною в 2 строки</span>
+                                        <span class="tile-info">1 250 000 р.</span>
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/sl-wrap-->
+                        </div>
+                    </div>
+                </div>
+                <!--/tiles-slider-box-->
+            </div>
+        </div>
+        <!--/main-tiles-slider-box-->
+
+        <!--main-about-box-->
+        <div class="main-about-box cnt-section">
+            <div class="inner-wrap">
+                <!--about-box-->
+                <div class="about-box">
+                    <div class="text-outer-wrap item-animation item-atop">
+                        <div class="title-wrap">
+                            <h1 class="h1-title">Из-дерева.ру</h1>
+                            <h2 class="h3-title">Мебель по индивидуальным проектам </h2>
+                        </div>
+                        <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+                        <p>В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. </p>
+                        <div class="action-wrap">
+                            <a href="" class="btn button-border">подробнее</a>
+                        </div>
+                    </div>
+                    <div class="photo-outer-wrap item-animation item-atop item-animation-third">
+                        <div class="elm-photo photo-cover">
+                            <img src="./img/main-second.jpg" alt="" class="">
+                        </div>
+                    </div>
+                </div>
+                <!--/about-box-->
+            </div>
+        </div>
+        <!--/main-about-box-->
+
+        <!--main-advantages-box-->
+        <div class="main-advantages-box cnt-section">
+            <div class="inner-wrap">
+                <!--advantages-box-->
+                <div class="advantages-box">
+                    <h2 class="h2-title title-center item-animation item-atop">НАШИ ПРЕИМУЩЕСТВА</h2>
+                    <div class="items-wrap">
+                        <!--item wrap-->
+                        <div class="item-wrap item-animation item-atop">
+                            <div class="item-tile-adv js-tooltip" title="Экологичные материалы. Используем только экологичные и безопасные для здровья материалы. Класс эмиссии Е 0,5 (Высший класс по ГОСТ).">
+                                <div class="tile-ico">
+                                    <img src="./img/icons/adv01.png" alt="" class="img-main">
+                                    <img src="./img/icons/adv01-h.png" alt="" class="img-hover">
+                                </div>
+                                <div class="tile-title">Экологичные материалы</div>
+                            </div>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap item-animation item-atop item-animation-second">
+                            <div class="item-tile-adv js-tooltip" title="Индивидуальный подход. Мы подберём идеальную мебель именно для вашего дома и с учётом ваших пожеланий, а так же реализуем дизайн-проект любой сложности.">
+                                <div class="tile-ico">
+                                    <img src="./img/icons/adv02.png" alt="" class="img-main">
+                                    <img src="./img/icons/adv02-h.png" alt="" class="img-hover">
+                                </div>
+                                <div class="tile-title">Собственное производство</div>
+                            </div>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap item-animation item-atop item-animation-third">
+                            <div class="item-tile-adv js-tooltip" title="Бесплатный замер и дизайн-проект. При заключении договора наш специалист бесплатно сделает замер и разработает дизайн-проект при заказе мебели в нашей компании.">
+                                <div class="tile-ico">
+                                    <img src="./img/icons/adv03.png" alt="" class="img-main">
+                                    <img src="./img/icons/adv03-h.png" alt="" class="img-hover">
+                                </div>
+                                <div class="tile-title">Инвидидуальный подход</div>
+                            </div>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap item-animation item-atop item-animation-four">
+                            <div class="item-tile-adv js-tooltip" title="Собственное производство. Производственная площадка в Московской области, что позволяет быстро и качественно выполнять заказы.">
+                                <div class="tile-ico">
+                                    <img src="./img/icons/adv04.png" alt="" class="img-main">
+                                    <img src="./img/icons/adv04-h.png" alt="" class="img-hover">
+                                </div>
+                                <div class="tile-title">Своя служба доставки и&nbsp;сборки</div>
+                            </div>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap item-animation item-atop item-animation-second">
+                            <div class="item-tile-adv js-tooltip" title="Своя служба доставки и сборки. Мы выполним ваш проект под ключ от замера до установки.">
+                                <div class="tile-ico">
+                                    <img src="./img/icons/adv05.png" alt="" class="img-main">
+                                    <img src="./img/icons/adv05-h.png" alt="" class="img-hover">
+                                </div>
+                                <div class="tile-title">Бесплатный замер и дизайн-проект</div>
+                            </div>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap item-animation item-atop item-animation-second">
+                            <div class="item-tile-adv js-tooltip" title="Гарантийные обязательства. Гарантия от производителя без посредников.">
+                                <div class="tile-ico">
+                                    <img src="./img/icons/adv06.png" alt="" class="img-main">
+                                    <img src="./img/icons/adv06-h.png" alt="" class="img-hover">
+                                </div>
+                                <div class="tile-title">Гарантийные обязательства</div>
+                            </div>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap item-animation item-atop item-animation-third">
+                            <div class="item-tile-adv js-tooltip" title="Сертификация. Вся наша продукция соответствует ГОСТам и имеет сертификаты соответствия.">
+                                <div class="tile-ico">
+                                    <img src="./img/icons/adv07.png" alt="" class="img-main">
+                                    <img src="./img/icons/adv07-h.png" alt="" class="img-hover">
+                                </div>
+                                <div class="tile-title">Сертификация</div>
+                            </div>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap item-animation item-atop item-animation-four">
+                            <div class="item-tile-adv js-tooltip" title="Качественные материалы и фурнитура. Мы сотрудничаем с ведущими европейскими производителями.">
+                                <div class="tile-ico">
+                                    <img src="./img/icons/adv08.png" alt="" class="img-main">
+                                    <img src="./img/icons/adv08-h.png" alt="" class="img-hover">
+                                </div>
+                                <div class="tile-title">Качественные материалы и&nbsp;фурнитура</div>
+                            </div>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap item-animation item-atop item-animation-second">
+                            <div class="item-tile-adv js-tooltip" title="Опыт работы - 20 лет! Мебельная фабрика работает для вас с 2002 года.">
+                                <div class="tile-ico">
+                                    <img src="./img/icons/adv09.png" alt="" class="img-main">
+                                    <img src="./img/icons/adv09-h.png" alt="" class="img-hover">
+                                </div>
+                                <div class="tile-title">Опыт работы - 20&nbsp;лет!</div>
+                            </div>
+                        </div>
+                        <!--/item wrap-->
+                        <!--item wrap-->
+                        <div class="item-wrap item-animation item-atop item-animation-third">
+                            <div class="item-tile-adv js-tooltip" title="Гибкая система скидок. Выгодные акции и скидки на нашу продукцию.">
+                                <div class="tile-ico">
+                                    <img src="./img/icons/adv10.png" alt="" class="img-main">
+                                    <img src="./img/icons/adv10-h.png" alt="" class="img-hover">
+                                </div>
+                                <div class="tile-title">Гибкая система скидок</div>
+                            </div>
+                        </div>
+                        <!--/item wrap-->
+                    </div>
+                </div>
+                <!--/advantages-box-->
+            </div>
+        </div>
+        <!--/main-advantages-box-->
+
+
+        <!--main-photo-box-->
+        <div class="main-photo-box cnt-section item-animation item-atop">
+            <div class="inner-wrap">
+                <!--photo-box-->
+                <div class="photo-box">
+                    <div class="elm-photo photo-cover">
+                        <img src="./img/main-full.jpg" alt="">
+                    </div>
+                </div>
+                <!--/photo-box-->
+            </div>
+        </div>
+        <!--/main-photo-box-->
+
+        <!--main-article-box-->
+        <div class="main-article-box cnt-section">
+            <div class="inner-wrap">
+                <!--article-box-->
+                <div class="article-box">
+                    <h2 class="h2-title title-center item-animation item-atop item-animation-second">ПОЧЕМУ ИМЕННО МЕБЕЛЬ НА ЗАКАЗ?</h2>
+                    <div class="item-animation item-atop item-animation-third">
+                        <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</p>
+                        <p>Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.</p>
+                        <p>Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.."</p>
+                        <p>Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.</p>
+                        <p>Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.."</p>
+                    </div>
+                </div>
+                <!--/article-box-->
+            </div>
+        </div>
+        <!--/main-article-box-->
 
 
         <!-- footer -->
         <footer class="footer">
             <div class="inner-wrap">
-                333333
+                <div class="logo-wrap item-animation item-atop">
+                    <a href="" class="logo">
+                        <span class="logo-image">
+                            <img src="./img/main/logo.png" alt="">
+                        </span>
+                        <span class="logo-title-wrap">
+                            <span class="logo-title">iz-derewa</span>
+                            <span class="logo-subtitle">мебель на заказ</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="phone-wrap item-animation item-atop item-animation-third">
+                    <a href="tel:84953456754" class="link-phone">+7 495 345 67 54</a>
+                </div>
+                <div class="menu-wrap item-animation item-atop item-animation-third">
+                    <ul class="menu">
+                        <li><a href="">о компании</a></li>
+                        <li><a href="">мебель на заказ</a></li>
+                        <li><a href="">дизайн интерьера</a></li>
+                        <li><a href="">галерея</a></li>
+                        <li><a href="">контакты</a></li>
+                    </ul>
+                </div>
             </div>
         </footer>
         <!-- /footer -->
@@ -47,10 +492,14 @@
     <!-- /wrap -->
 
     <script src="./js/jquery.min.js"></script>
-    <script src="./js/jquery.fancybox.min.js"></script>
+    <script src="./js/jquery-ui.min.js"></script>
+    <script src="./js/index.js"></script>
     <script src="./js/slick.min.js"></script>
+    <script src="./js/jquery.fancybox.min.js"></script>
+    <script src="./js/jquery.swipebox.min.js"></script>
     <script src="./js/jquery.maskedinput.min.js"></script>
     <script src="./js/scripts.js"></script>
+
 
 </body>
 
